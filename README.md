@@ -1,6 +1,6 @@
 # LLM Jail
 
-This Docker container isolates the command-line interface (CLI) of your large language model (LLM), such as Codex, Gemini, or Claude.
+This Docker container isolates your large language model (LLM) command-line interface (CLI), such as Codex, Gemini, or Claude.
 
 The container runs Alpine Linux and includes `git`, `curl` and `codex`. You can checkout a git repo into a temp directory and run your favorite CLI in that directory. The idea is that the LLM is less likely to blow up your machine because it's in this docker container. The container serves as the sandbox.
 
