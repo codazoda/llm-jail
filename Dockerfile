@@ -12,6 +12,6 @@ RUN apk add --no-cache git nodejs npm curl \
 WORKDIR /root
 
 # Friendly interactive prompt (red "codex" and short hostname)
-ENV PS1="\e[31mcodex\e[0m [\w] # "
+ENV PS1="\e[31mllm-jail\e[0m [\w] # "
 
 CMD ["sh"]
